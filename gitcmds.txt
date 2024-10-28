@@ -1,0 +1,46 @@
+GIT BASH CMDS
+pwd - print working directory
+cd - change directory
+cd .. - going back
+touch xx - to create new file or..(xx file name)
+rm xx - to delete file or.. (not directory!)
+rm -rf xx - to delete directory (recursive force)
+mkdir - to create directory
+ls -la - to see secret files in directory
+git status - to check git(first always check if there is git or not)!!
+git config --global user.name xx
+git config --global user.email xx
+git init - to activate git(after checking git status do this)
+git add xx
+git rm --cached <file>... - to delete mistaken added git add commit
+git add . (adds everything in the file to git)
+git commit -m "messageinput" (to add comment to added file")
+git log (to see every detail about commit)
+git restore <file>... (to discard changes in working directory)(only 1 file)
+git branch (shows which branch we on at that moment)
+git branch xx (addes new branch)
+git switch xx (xx=branch name) (to switch between branches)
+git checkout xx (usually useful when surf between commits)
+git merge xx(branch name) (to merge branches)
+git config --global core.editor xx(to change default editor for git bash)
+git checkout xx(commit id) (to go back and change current working commit) (checkpoint system
+git reset --hard <commit>
+git revert <commit> 
+git stash (takes the changes from last commit and storage it)(son committen itibaren degisiklikleri alir ve zulalar)
+git stash list (to see storaged changes)
+git stash pop (brings the storage changes back)
+git tag <version> (to tag current project and specify version)
+git remote add origin <link>
+git remote
+git push origin <branch name>
+git branch -r  (to see remote branch)
+git fetch (we can see changes)
+*** git pull = git fetch + git merge
+touch.gitignore
+
+TERIMLER
+merge = birlestirmek
+commit = yapilan degisiklige dair yorum olusturmak
+conflict = cakismak
+fetch = getirmek
+
